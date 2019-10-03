@@ -1,0 +1,28 @@
+#dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+#changetype: modify
+#add: givenName
+#givenName: juanca
+#givenName: campechano
+#-
+#replace: mail
+#mail: juanca@edt.org
+#-
+#delete: description
+#-
+#add: homePhone
+#homePhone: 123456789
+
+dn: cn=new,ou=usuaris,dc=edt,dc=org
+changetype: delete
+
+dn: cn=Pau Martin,ou=usuaris,dc=edt,dc=org
+changetype: add
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: Pau Pou
+sn: Martin Arnau
+uid: 40000
+uidNumber: 5006
+gidNumber: 100
+homeDirectory: /tmp/home/new
+userPassword: {SSHA}xI0BZWVUAmDWkHD/vEMGLZX+SgyUIDD4
