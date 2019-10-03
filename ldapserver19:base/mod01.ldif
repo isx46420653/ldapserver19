@@ -1,16 +1,16 @@
-#dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
-#changetype: modify
-#add: givenName
-#givenName: juanca
-#givenName: campechano
-#-
-#replace: mail
-#mail: juanca@edt.org
-#-
-#delete: description
-#-
-#add: homePhone
-#homePhone: 123456789
+dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: givenName
+givenName: juanca
+givenName: campechano
+-
+replace: mail
+mail: juanca@edt.org
+-
+delete: description
+-
+add: homePhone
+homePhone: 123456789
 
 dn: cn=new,ou=usuaris,dc=edt,dc=org
 changetype: delete
