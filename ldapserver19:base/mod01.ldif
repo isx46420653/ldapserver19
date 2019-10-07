@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
-changetype: modify
-add: givenName
-givenName: juanca
-givenName: campechano
--
-replace: mail
-mail: juanca@edt.org
--
-delete: description
--
-add: homePhone
-homePhone: 123456789
-=======
 dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
 changetype: modify
 replace: mail
@@ -25,7 +10,6 @@ delete: description
 -
 add: description
 description: nova descripció per a l’usuari Pau
->>>>>>> 33822ecb28d8b3bc6c365cab9cfad3728fc1132c
 
 dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
 changetype: delete
@@ -46,5 +30,3 @@ uidNumber: 5002
 gidNumber: 600
 homeDirectory: /tmp/home/anna
 userPassword: {SSHA}Bm4B3Bu/fuH6Bby9lgxfFAwLYrK0RbOq
-
-
