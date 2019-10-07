@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
 changetype: modify
 add: givenName
@@ -11,18 +12,39 @@ delete: description
 -
 add: homePhone
 homePhone: 123456789
+=======
+dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+replace: mail
+mail: newmail@edt.org
+-
+replace: homephone
+homephone: 111-111-1111
+-
+delete: description
+-
+add: description
+description: nova descripció per a l’usuari Pau
+>>>>>>> 33822ecb28d8b3bc6c365cab9cfad3728fc1132c
 
-dn: cn=new,ou=usuaris,dc=edt,dc=org
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
 changetype: delete
 
-dn: cn=Pau Martin,ou=usuaris,dc=edt,dc=org
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
 changetype: add
 objectclass: posixAccount
 objectclass: inetOrgPerson
-cn: Pau Pou
-sn: Martin Arnau
-uid: 40000
-uidNumber: 5006
-gidNumber: 100
-homeDirectory: /tmp/home/new
-userPassword: {SSHA}xI0BZWVUAmDWkHD/vEMGLZX+SgyUIDD4
+cn: Anna Pou
+cn: Anita Pou
+sn: Pou
+homephone: 555-222-2222
+mail: anna@edt.org
+description: Watch out for this girl
+ou: Alumnes
+uid: anna
+uidNumber: 5002
+gidNumber: 600
+homeDirectory: /tmp/home/anna
+userPassword: {SSHA}Bm4B3Bu/fuH6Bby9lgxfFAwLYrK0RbOq
+
+
