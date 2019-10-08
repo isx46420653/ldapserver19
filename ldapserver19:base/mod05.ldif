@@ -1,0 +1,14 @@
+# Ús del modrdn
+# Afecta al seu pare, ho hem de fer com a Manager
+#dn: cn=Anna Woman,ou=usuaris,dc=edt,dc=org
+#changetype: modrdn
+# Esborra l'antic cn
+#newrdn: cn=Anna Elder
+#deleteoldrdn: 1
+#newsuperior: ou=consumidors,dc=edt,dc=org
+
+dn: cn=Anna Woman,ou=usuaris,dc=edt,dc=org
+changetype: modify
+newrdn: cn=Anna Elder
+deleteoldrdn: 1
+newsuperior: ou=consumidors,dc=edt,dc=org
