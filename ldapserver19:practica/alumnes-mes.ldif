@@ -1,0 +1,58 @@
+dn: uid=ivan,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: x-master
+x-master: Telecomunicacions
+x-any: 2
+x-foto: ///var/tmp/fotoivan.jpg
+cn: Ivan Higueras
+sn: Ivan
+homephone: 555-222-2214
+mail: ivan@edt.org
+description: Haha malísimo en todo
+ou: Alumnes
+uid: ivan
+uidNumber: 6000
+gidNumber: 100
+homeDirectory: /tmp/home/ivan
+userPassword: {SSHA}iNPY9sE2OoKQLCmOSVO/Z4y+beqOZia7
+
+dn: uid=alejandro,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: x-master
+x-master: Comerç Internacional
+x-any: 1
+x-foto: ///tmp/fotoalejandro.jpg
+x-actiu: TRUE
+x-web: www.alejandrozeus.com
+cn: Alejandro
+sn: López
+homephone: 666-7777-888
+mail: alejandro@edt.org
+description: Hola
+ou: Profes
+uid: alejandro
+uidNumber: 6001
+gidNumber: 100
+homeDirectory: /tmp/home/alejandro
+userPassword: {SSHA}EpdQCZdhaSgVAUZNRRbG+NsNyYJOdNHb
+
+dn: uid=xavi,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: x-master
+x-master: Fisica teòrica
+x-any: 3
+x-actiu: FALSE
+cn: Xavi
+sn: Pérez
+homephone: 111-2222-333
+mail: xavi@edt.org
+description: Chio
+ou: Alumnes
+uid: xavi
+uidNumber: 6002
+gidNumber: 100
+homeDirectory: /tmp/home/xavi
+userPassword: {SSHA}xDyg0SQ+i8bB4t/qSmMYEKnACV8hCrhC
