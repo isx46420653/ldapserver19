@@ -1,5 +1,7 @@
 #!/bin/bash
 
-cp config.php /etc/phpldapadmin/config.php
-cp phpldapadmin.conf /etc/httpd/conf.d/phpldapadmin.conf
-systemctl start httpd
+bash /opt/phpldapadmin/install.sh
+# Arranquem PHP per a que pugui comunicar-se amb HTTPD
+/sbin/php-fpm
+# Arranquem el servei
+httpd -k start -X
