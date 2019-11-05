@@ -4,7 +4,7 @@ objectclass: inetOrgPerson
 objectclass: x-master
 x-master: Telecomunicacions
 x-any: 2
-x-foto: ///var/tmp/fotoivan.jpg
+x-foto:< file:///var/tmp/m06/ldapserver19/ldapserver19:practica/fotoivan.jpg
 cn: Ivan Higueras
 sn: Ivan
 homephone: 555-222-2214
@@ -23,7 +23,7 @@ objectclass: inetOrgPerson
 objectclass: x-master
 x-master: Comerç Internacional
 x-any: 1
-x-foto: ///tmp/fotoalejandro.jpg
+x-foto:< file:///tmp/fotoalejandro.jpg
 x-actiu: TRUE
 x-web: www.alejandrozeus.com
 cn: Alejandro

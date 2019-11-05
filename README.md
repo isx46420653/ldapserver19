@@ -11,3 +11,7 @@ Repositori de creació d'imatges de servidors ldap
 * *ldapserver19:acl* servidor amb les ACL modificades
 
 * *ldapserver19:schema* servidor amb schemas modificats
+
+* *ldapserver19:practica* servidor amb esquemes propis i modificacions d'entitats
+
+* *ldapserver19:phpldapadmin* servidor HTTP amb PHP amb l'eina phpldapadmin per a visualitzar el servidor LDAP d'un altre contenidor a un navegador web
