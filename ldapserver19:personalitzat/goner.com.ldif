@@ -1,0 +1,62 @@
+dn: dc=goner,dc=com
+dc: goner
+description: Base de dades de Goner
+objectClass: dcObject
+objectClass: organization
+o: goner.com
+
+dn: ou=futbol,dc=goner,dc=com
+ou: futbol
+description: Jugadors de futbol
+objectclass: organizationalunit
+
+dn: ou=basquet,dc=goner,dc=com
+ou: basquet
+description: Jugadors de basquet
+objectclass: organizationalunit
+
+dn: x-nom=messi,ou=futbol,dc=goner,dc=com
+objectclass: x-esport
+x-nom: Leo Messi
+x-posicio: Davanter
+x-equip: Futbol Club Barcelona
+x-titular: TRUE
+x-foto:< file:///opt/docker/messi.jpg
+x-sou: 40.000.000€
+
+dn: x-nom=hazard,ou=futbol,dc=goner,dc=com
+objectclass: x-esport
+objectclass: x-estudis
+x-nom: Eden Hazard
+x-posicio: Davanter
+x-equip: Real Madrid
+x-titular: TRUE
+x-foto:< file:///opt/docker/hazard.jpg
+x-sou: 30.000.000€
+x-curs: Administració de sistemes i Xarxes
+x-any: 2
+
+dn: x-nom=stegen,ou=futbol,dc=goner,dc=com
+objectclass: x-esport
+objectclass: x-estudis
+x-nom: Marc André Ter Stegen
+x-posicio: Porter
+x-equip: Futbol Club Barcelona
+x-titular: TRUE
+x-foto:< file:///opt/docker/stegen.jpg
+x-sou: 20.000.000€
+x-curs: Comerç Internacional
+x-any: 1
+x-centre: Deutschland Institute
+x-notamitja: 9.5
+
+dn: x-nom=areola,ou=futbol,dc=goner,dc=com
+objectclass: x-esport
+objectclass: x-estudis
+x-nom: Alphonse Aréola
+x-posicio: Porter
+x-equip: Real Madrid
+x-titular: FALSE
+x-curs: Fusteria
+x-any: 3
+x-centre: Escola del treball
