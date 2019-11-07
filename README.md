@@ -14,4 +14,8 @@ Repositori de creació d'imatges de servidors ldap
 
 * *ldapserver19:practica* servidor amb esquemes propis i modificacions d'entitats
 
-* *ldapserver19:phpldapadmin* servidor HTTP amb PHP amb l'eina phpldapadmin per a visualitzar el servidor LDAP d'un altre contenidor a un navegador web
+* *ldapserver19:personalitzar* servidor utilitzat per a practicar per a l'examen, fet tot des de 0 amb esquemes personalitzats i ACL diverses, només té una BD, 'goner.com'.
+
+* *ldapserver19:latest* servidor preparat per a utilitzar amb Amazon Cloud, basat en ldapserver19:schema.
+
+* *phpldapadmin* servidor HTTP amb PHP amb l'eina phpldapadmin per a visualitzar el servidor LDAP d'un altre contenidor a un navegador web
